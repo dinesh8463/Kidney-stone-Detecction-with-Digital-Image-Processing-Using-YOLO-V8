@@ -40,19 +40,27 @@ kidneystoneapp/
 
 ##  How to Run
 
-1. **Install Dependencies**
-   ```bash
-   pip install -r requirements.txt
-   ```
+### 1. Install Dependencies
+```bash
+pip install -r requirements.txt
+```
 
-2. **Run Flask App**
-   ```bash
-   python app.py
-   ```
+### 2. Run the Flask App
 
-3. **Open your browser**
-   - Navigate to `http://localhost:5000`
-   - Upload a CT scan image and view detection results.
+#### ▶️ On **Windows**
+```bat
+run.bat
+```
+
+#### ▶️ On **Linux/macOS**
+```bash
+chmod +x run.sh
+./run.sh
+```
+
+### 3. Open your browser
+- Visit: `http://localhost:5000`
+- Upload a CT scan image to get detection results.
 
 
 
